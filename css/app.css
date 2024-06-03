@@ -571,12 +571,20 @@ video {
   min-height: 18rem;
 }
 
+.w-48 {
+  width: 12rem;
+}
+
 .flex-row {
   flex-direction: row;
 }
 
 .flex-col {
   flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
 }
 
 .justify-end {
@@ -613,6 +621,16 @@ video {
 
 .p-4 {
   padding: 1rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .text-xl {
