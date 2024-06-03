@@ -603,8 +603,8 @@ video {
   border-bottom-width: 2px;
 }
 
-.bg-\[url\(\'\/img\/HeaderBackground\.svg\'\)\] {
-  background-image: url('/img/HeaderBackground.svg');
+.bg-\[url\(\'img\/HeaderBackground\.svg\'\)\] {
+  background-image: url('img/HeaderBackground.svg');
 }
 
 .bg-cover {
