@@ -5,15 +5,17 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/app.css">
 
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script></head>
 
-<body class="flex flex-col h-screen text-hptext-500"><nav x-data="{ isDrawerMenu: window.innerWidth &lt; 767, isMenuShown: false }" x-on:keydown.escape="isMenuShown = false" x-on:click.away="isMenuShown = false" x-on:resize.window.debounce.100="isDrawerMenu = window.innerWidth &lt; 640" class="bg-[linear-gradient(to_bottom,rgba(255,255,255,0.0),rgba(255,255,255,0.7)),url(&#x27;../img/HeaderBackground.svg&#x27;)] bg-cover bg-no-repeat bg-center flex flex-col justify-start items-center"><div class="flex flex-row items-start justify-between w-full px-4 py-4 sm:justify-center"><img src="img/HeaderLogo.svg" class="h-16 md:h-48 sm:h-28">
+<body class="flex flex-col h-screen text-hptext-500"><nav x-data="{ isDrawerMenu: window.innerWidth &lt; 767, isMenuShown: false }" x-on:keydown.escape="isMenuShown = false" x-on:click.away="isMenuShown = false" x-on:resize.window.debounce.100="isDrawerMenu = window.innerWidth &lt; 640" class="bg-[linear-gradient(to_bottom,rgba(255,255,255,0.0),rgba(255,255,255,0.7)),url(&#x27;../img/HeaderBackground.svg&#x27;)] bg-cover bg-no-repeat bg-center flex flex-col justify-start items-center"><div class="flex flex-row items-start justify-between w-full px-4 py-4 sm:justify-center"><img src="img/logo_long.svg" class="h-16 pr-4 sm:hidden" style="transform-box: fill-box;">
+    <img src="img/logo_round.svg" class="hidden h-16 sm:block md:h-48 sm:h-28">
     <button x-on:click="isMenuShown = !isMenuShown" type="button" class="sm:hidden"><svg x-show="!isMenuShown" width="24" height="24" viewBox="0,0,24,24" focusable="false" aria-hidden="true"><path d="M4 18q-.425 0-.712-.288Q3 17.425 3 17t.288-.712Q3.575 16 4 16h16q.425 0 .712.288.288.287.288.712t-.288.712Q20.425 18 20 18Zm0-5q-.425 0-.712-.288Q3 12.425 3 12t.288-.713Q3.575 11 4 11h16q.425 0 .712.287.288.288.288.713t-.288.712Q20.425 13 20 13Zm0-5q-.425 0-.712-.287Q3 7.425 3 7t.288-.713Q3.575 6 4 6h16q.425 0 .712.287Q21 6.575 21 7t-.288.713Q20.425 8 20 8Z"/></svg>
       <svg x-show="isMenuShown" width="24" height="24" viewBox="0,0,24,24" focusable="false" aria-hidden="true"><path d="m12 13.4-4.9 4.9q-.275.275-.7.275-.425 0-.7-.275-.275-.275-.275-.7 0-.425.275-.7l4.9-4.9-4.9-4.9q-.275-.275-.275-.7 0-.425.275-.7.275-.275.7-.275.425 0 .7.275l4.9 4.9 4.9-4.9q.275-.275.7-.275.425 0 .7.275.275.275.275.7 0 .425-.275.7L13.4 12l4.9 4.9q.275.275.275.7 0 .425-.275.7-.275.275-.7.275-.425 0-.7-.275Z"/></svg></button></div>
-  <div x-bind:class="{ &#x27;hidden&#x27;: isDrawerMenu ? !isMenuShown : false }" class="flex flex-col gap-2 px-8 pb-2 mx-8 border-b-2 sm:justify-center sm:gap-8 sm:flex-row border-hptext-300"><a href="index" class=" font-bold text-nowrap whitespacing-no-wrap active:scale-95 text-xl hover:-translate-x-1 sm:hover:-translate-x-0 sm:hover:-translate-y-1 transition">Home</a>
-    <a href="Leistungen" class=" font-bold text-nowrap whitespacing-no-wrap active:scale-95 text-xl hover:-translate-x-1 sm:hover:-translate-x-0 sm:hover:-translate-y-1 transition">Leistungen</a>
-    <a href="&#xDC;berMich" class=" font-bold text-nowrap whitespacing-no-wrap active:scale-95 text-xl hover:-translate-x-1 sm:hover:-translate-x-0 sm:hover:-translate-y-1 transition">&#xDC;ber mich</a>
-    <a href="Kontakt" class=" font-bold text-nowrap whitespacing-no-wrap active:scale-95 text-xl hover:-translate-x-1 sm:hover:-translate-x-0 sm:hover:-translate-y-1 transition">Kontakt</a></div></nav>
+  <div x-bind:class="{ &#x27;hidden&#x27;: isDrawerMenu ? !isMenuShown : false }" class="flex flex-col gap-4 px-8 pb-2 mx-8 border-b-2 sm:justify-center sm:gap-8 sm:flex-row border-hptext-300"><a href="index" class=" font-bold text-nowrap whitespacing-no-wrap text-xl hover:scale-95 transition">Home</a>
+    <a href="Leistungen" class=" font-bold text-nowrap whitespacing-no-wrap text-xl hover:scale-95 transition">Leistungen</a>
+    <a href="&#xDC;berMich" class=" font-bold text-nowrap whitespacing-no-wrap text-xl hover:scale-95 transition">&#xDC;ber mich</a>
+    <a href="Kontakt" class=" font-bold text-nowrap whitespacing-no-wrap text-xl hover:scale-95 transition">Kontakt</a></div></nav>
 
     <main class="flex flex-col items-center p-4 md:p-8 grow"><div class="w-3/4"><article class="prose-sm md:prose max-w-none md:max-w-none"><h1>Impressum</h1>
         <p>Angaben gemäß § 5 TMG</p>
@@ -83,6 +85,11 @@
             Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
         </p></article></div></main>
 
-    <div class="bg-[linear-gradient(to_top,rgba(255,255,255,0.0),rgba(255,255,255,0.7)),url(&#x27;../img/HeaderBackground.svg&#x27;)] bg-cover bg-no-repeat bg-center flex flex-col justify-start items-center p-4"><div class="flex flex-col items-center gap-2 pb-4 mx-8 sm:gap-8 sm:justify-center sm:flex-row"><a href="Impressum">Impressum</a>
+    <div class="bg-[linear-gradient(to_top,rgba(255,255,255,0.0),rgba(255,255,255,0.7)),url(&#x27;../img/HeaderBackground.svg&#x27;)] bg-cover bg-no-repeat bg-center flex flex-col justify-start items-center p-4 gap-4"><p>&#xA9; 2024 - 2024 Tamara Lude.</p>
+  <div class="flex flex-col items-center gap-2 mx-8 sm:gap-8 sm:justify-center sm:flex-row"><a href="Impressum">Impressum</a>
     <a href="https://www.instagram.com/herbivorepower" target="_blank"><svg width="24" height="24" viewBox="0,0,448,512" focusable="false" aria-hidden="true"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a></div>
-  <p>Medical disclaimer here</p></div></body></html>
+  <p class="max-w-screen-md text-center">
+    Mein Angebot richtet sich an gesunde Menschen. Es wird kein Versprechen abgegeben, dass Heilung oder sonstiger
+    Erfolg stattfinden wird. Bei Beschwerden oder Krankheiten sind meine Kund*Innen gebeten, sich an entsprechende
+    Ärzt*Innen zu wenden.
+  </p></div></body></html>
