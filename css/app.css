@@ -951,6 +951,18 @@ select {
   margin-bottom: 0.25rem;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .ml-16 {
   margin-left: 4rem;
 }
@@ -977,6 +989,10 @@ select {
 
 .h-screen {
   height: 100vh;
+}
+
+.max-h-16 {
+  max-height: 4rem;
 }
 
 .max-h-\[24rem\] {
@@ -1021,6 +1037,10 @@ select {
 
 .grow {
   flex-grow: 1;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .flex-row {
@@ -1183,6 +1203,10 @@ select {
   padding-bottom: 1rem;
 }
 
+.pb-16 {
+  padding-bottom: 4rem;
+}
+
 .pb-2 {
   padding-bottom: 0.5rem;
 }
@@ -1209,6 +1233,11 @@ select {
 
 .text-justify {
   text-align: justify;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-5xl {
@@ -1239,6 +1268,10 @@ select {
   font-weight: 500;
 }
 
+.font-semibold {
+  font-weight: 600;
+}
+
 .leading-normal {
   line-height: 1.5;
 }
@@ -1256,6 +1289,10 @@ select {
 .text-red-500 {
   --tw-text-opacity: 1;
   color: rgb(239 68 68 / var(--tw-text-opacity));
+}
+
+.no-underline {
+  text-decoration-line: none;
 }
 
 .transition {
@@ -1886,6 +1923,10 @@ select {
   fill: #f79f79;
 }
 
+.hover\:underline:hover {
+  text-decoration-line: underline;
+}
+
 @media (min-width: 640px) {
   .sm\:block {
     display: block;
@@ -1977,6 +2018,10 @@ select {
 
   .md\:p-8 {
     padding: 2rem;
+  }
+
+  .md\:pb-16 {
+    padding-bottom: 4rem;
   }
 }
 
