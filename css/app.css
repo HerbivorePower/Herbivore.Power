@@ -1272,6 +1272,10 @@ select {
   font-weight: 600;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .leading-normal {
   line-height: 1.5;
 }
@@ -2022,6 +2026,10 @@ select {
 
   .md\:pb-16 {
     padding-bottom: 4rem;
+  }
+
+  .md\:text-justify {
+    text-align: justify;
   }
 }
 
