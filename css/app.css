@@ -1043,6 +1043,10 @@ select {
   cursor: pointer;
 }
 
+.list-disc {
+  list-style-type: disc;
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -1151,10 +1155,6 @@ select {
   background-image: url('../img/cardBorder_services_2.svg');
 }
 
-.bg-\[url\(\'\.\.\/img\/cardBorder_services_3\.svg\'\)\] {
-  background-image: url('../img/cardBorder_services_3.svg');
-}
-
 .bg-cover {
   background-size: cover;
 }
@@ -1220,6 +1220,10 @@ select {
   padding-bottom: 2.25rem;
 }
 
+.pl-6 {
+  padding-left: 1.5rem;
+}
+
 .pr-4 {
   padding-right: 1rem;
 }
@@ -1230,6 +1234,10 @@ select {
 
 .pt-7 {
   padding-top: 1.75rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
 }
 
 .text-left {
@@ -1283,10 +1291,6 @@ select {
 
 .font-semibold {
   font-weight: 600;
-}
-
-.italic {
-  font-style: italic;
 }
 
 .leading-normal {

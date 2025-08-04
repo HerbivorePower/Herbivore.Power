@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8">
+<html lang="de"><head><meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Impressum</title>
     <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script></head>
 
-<body class="flex flex-col h-screen text-hptext-500"><nav x-data="{ isDrawerMenu: window.innerWidth &lt; 767, isMenuShown: false }" x-on:keydown.escape="isMenuShown = false" x-on:click.away="isMenuShown = false" x-on:resize.window.debounce.100="isDrawerMenu = window.innerWidth &lt; 640" class="bg-[linear-gradient(to_bottom,rgba(255,255,255,0.0),rgba(255,255,255,0.7)),url(&#x27;../img/HeaderBackground.svg&#x27;)] bg-cover bg-no-repeat bg-center flex flex-col justify-start items-center"><div class="flex flex-row items-start justify-between w-full px-4 py-4 sm:justify-center"><a href="/"><img src="img/logo_long.svg" alt="logo" class="pr-4 max-h-16 sm:hidden" style="transform-box: fill-box;">
+<body class="flex flex-col h-screen text-hptext-500"><nav x-data="{ isDrawerMenu: window.innerWidth &lt; 640, isMenuShown: false }" x-on:keydown.escape="isMenuShown = false" x-on:click.away="isMenuShown = false" x-on:resize.window.debounce.100="isDrawerMenu = window.innerWidth &lt; 640" class="bg-[linear-gradient(to_bottom,rgba(255,255,255,0.0),rgba(255,255,255,0.7)),url(&#x27;../img/HeaderBackground.svg&#x27;)] bg-cover bg-no-repeat bg-center flex flex-col justify-start items-center"><div class="flex flex-row items-start justify-between w-full px-4 py-4 sm:justify-center"><a href="/"><img src="img/logo_long.svg" alt="logo" class="pr-4 max-h-16 sm:hidden" style="transform-box: fill-box;">
       <img src="img/logo_round.svg" alt="logo" class="hidden h-16 sm:block md:h-48 sm:h-28"></a>
     <button x-on:click="isMenuShown = !isMenuShown" type="button" aria-label="Toggle menu" class="sm:hidden"><svg x-show="!isMenuShown" width="24" height="24" viewBox="0,0,24,24" focusable="false" aria-hidden="true"><path d="M4 18q-.425 0-.712-.288Q3 17.425 3 17t.288-.712Q3.575 16 4 16h16q.425 0 .712.288.288.287.288.712t-.288.712Q20.425 18 20 18Zm0-5q-.425 0-.712-.288Q3 12.425 3 12t.288-.713Q3.575 11 4 11h16q.425 0 .712.287.288.288.288.713t-.288.712Q20.425 13 20 13Zm0-5q-.425 0-.712-.287Q3 7.425 3 7t.288-.713Q3.575 6 4 6h16q.425 0 .712.287Q21 6.575 21 7t-.288.713Q20.425 8 20 8Z"/></svg>
       <svg x-show="isMenuShown" width="24" height="24" viewBox="0,0,24,24" focusable="false" aria-hidden="true"><path d="m12 13.4-4.9 4.9q-.275.275-.7.275-.425 0-.7-.275-.275-.275-.275-.7 0-.425.275-.7l4.9-4.9-4.9-4.9q-.275-.275-.275-.7 0-.425.275-.7.275-.275.7-.275.425 0 .7.275l4.9 4.9 4.9-4.9q.275-.275.7-.275.425 0 .7.275.275.275.275.7 0 .425-.275.7L13.4 12l4.9 4.9q.275.275.275.7 0 .425-.275.7-.275.275-.7.275-.425 0-.7-.275Z"/></svg></button></div>
@@ -20,61 +20,34 @@
     <a href="Kontakt" class=" font-semibold text-nowrap whitespacing-no-wrap text-xl hover:scale-95 transition">Kontakt</a></div></nav>
 
     <main class="flex flex-col items-center p-4 pb-16 md:p-8 md:pb-16 grow"><div class="w-3/4"><article class="prose-sm md:prose max-w-none md:max-w-none"><h1>Impressum</h1>
-        <p>Angaben gemäß § 5 TMG</p>
-        <p>Tamara Lude <br>
+
+        <h4>Kontakt</h4>
+        <p>
+            Tamara Lude <br>
             Dovestraße 11<br>
-            90459 Nürnberg <br></p>
+            90459 Nürnberg <br>
+            E-Mail: <a href='mailto:herbivore.power+legalNotice@gmail.com'>herbivore.power+legalNotice@gmail.com</a></p>
 
-        <h4>Vertreten durch:</h4>
-        <p>
-            Felix Strauß
-        </p>
-
-        <h4>Kontakt:</h4>
-        <p>
-            Telefon: 01234-789456<br>
-            E-Mail: <a href='mailto:herbivore.power@gmail.com'>herbivore.power@gmail.com</a></p>
-
-        <h4>Umsatzsteuer-ID:</h4>
-        <p>
-            Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz: Musterustid.
-        </p>
-
-        <h4>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</h4>
-        <p>
-            Tamara Lude<br>
-            Dovestraße 11<br>
-            90459 Nürnberg
-        </p>
-        <br>
-
-        <h3>Haftungsausschluss:</h3>
+        <h3>Haftungsausschluss</h3>
 
         <h4>Haftung für Inhalte</h4>
         <p>
-            Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und
-            Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7
-            Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis
-            10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde
-            Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.
-            Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen
-            bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer
-            konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese
-            Inhalte umgehend entfernen.
+            Die Autor*Innen übernehmen keinerlei Gewähr hinsichtlich der inhaltlichen Richtigkeit, Genauigkeit, Aktualität,
+            Zuverlässigkeit und Vollständigkeit der Informationen. Haftungsansprüche gegen die Autor*Innen wegen Schäden
+            materieller oder immaterieller Art, welche aus dem Zugriff oder der Nutzung bzw. Nichtnutzung der
+            veröffentlichten Informationen, durch Missbrauch der Verbindung oder durch technische Störungen entstanden
+            sind, werden ausgeschlossen. Alle Angebote sind unverbindlich. Die Autor*Innen behalten es sich ausdrücklich vor,
+            Teile der Seiten oder das gesamte Angebot ohne gesonderte Ankündigung zu verändern, zu ergänzen, zu löschen
+            oder die Veröffentlichung zeitweise oder endgültig einzustellen.
         </p>
 
         <h4>Haftung für Links</h4>
         <p>
-            Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben.
-            Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten
-            Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten
-            wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum
-            Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist
-            jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von
-            Rechtsverletzungen werden wir derartige Links umgehend
-            entfernen.
+            Verweise und Links auf Webseiten Dritter liegen ausserhalb unseres Verantwortungsbereichs Es wird jegliche
+            Verantwortung für solche Webseiten abgelehnt. Der Zugriff und die Nutzung solcher Webseiten erfolgen auf
+            eigene Gefahr der Nutzer*Innen.
         </p>
-        
+
         <h4>Urheberrecht</h4>
         <p>
             Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen
@@ -87,7 +60,7 @@
             Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.
         </p></article></div></main>
 
-    <div class="bg-[linear-gradient(to_top,rgba(255,255,255,0.0),rgba(255,255,255,0.7)),url(&#x27;../img/HeaderBackground.svg&#x27;)] bg-cover bg-no-repeat bg-center flex flex-col justify-start items-center p-4 gap-4"><p>&#xA9; 2024 - 2024 Tamara Lude.</p>
+    <div class="bg-[linear-gradient(to_top,rgba(255,255,255,0.0),rgba(255,255,255,0.7)),url(&#x27;../img/HeaderBackground.svg&#x27;)] bg-cover bg-no-repeat bg-center flex flex-col justify-start items-center p-4 gap-4"><p>&#xA9; 2024 - 2025 Tamara Lude.</p>
   <div class="flex flex-col items-center gap-2 mx-8 sm:gap-8 sm:justify-center sm:flex-row"><a class="no-underline hover:underline cursor-pointer " href="Impressum">Impressum</a>
     <a href="https://www.instagram.com/herbivorepower" title="instagram" target="_blank" class="transition hover:fill-hpaccent-500"><svg width="24" height="24" viewBox="0,0,448,512" focusable="false" aria-hidden="true"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a></div>
   <p class="max-w-screen-md text-center">
