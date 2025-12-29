@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="de"><head><meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="description" content="Vegane Ern&#xE4;hrungsberatung - Fundiertes Ern&#xE4;hrungswissen &amp; individuelle Praxistipps f&#xFC;r deinen Alltag. Im Fokus stehen deine individuellen Ern&#xE4;hrungsziele. Ich freu mich &#xFC;ber deine Anfrage!" />
+    <meta property="og:title" content="Vegane Ern&#xE4;hrungsberatung - Home" />
+    <title>Vegane Ern&#xE4;hrungsberatung - Home</title>
     <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
     <link rel="icon" type="image/png" href="img/favicon.png">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/app.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script></head>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script data-goatcounter="https://herbivore-power.goatcounter.com/count" data-goatcounter-settings='{"allow_local": true}' async src="//gc.zgo.at/count.js"></script></head>
 
 <body class="flex flex-col h-screen text-hptext-500"><nav x-data="{ isDrawerMenu: window.innerWidth &lt; 640, isMenuShown: false }" x-on:keydown.escape="isMenuShown = false" x-on:click.away="isMenuShown = false" x-on:resize.window.debounce.100="isDrawerMenu = window.innerWidth &lt; 640" class="bg-[linear-gradient(to_bottom,rgba(255,255,255,0.0),rgba(255,255,255,0.7)),url(&#x27;../img/HeaderBackground.svg&#x27;)] bg-cover bg-no-repeat bg-center flex flex-col justify-start items-center"><div class="flex flex-row items-start justify-between w-full px-4 py-4 sm:justify-center"><a href="/"><img src="img/logo_long.svg" alt="logo" class="pr-4 max-h-16 sm:hidden" style="transform-box: fill-box;">
       <img src="img/logo_round.svg" alt="logo" class="hidden h-16 sm:block md:h-48 sm:h-28"></a>
@@ -17,10 +20,10 @@
   <div x-bind:class="{ &#x27;hidden&#x27;: isDrawerMenu ? !isMenuShown : false }" class="flex flex-col gap-4 px-8 pb-2 mx-8 border-b-2 sm:justify-center sm:gap-8 sm:flex-row border-hptext-300"><a href="index" class="text-hpaccent-500 font-semibold text-nowrap whitespacing-no-wrap text-xl hover:scale-95 transition">Home</a>
     <a href="Leistungen" class=" font-semibold text-nowrap whitespacing-no-wrap text-xl hover:scale-95 transition">Leistungen</a>
     <a href="&#xDC;berMich" class=" font-semibold text-nowrap whitespacing-no-wrap text-xl hover:scale-95 transition">&#xDC;ber mich</a>
-    <a href="Kontakt" class=" font-semibold text-nowrap whitespacing-no-wrap text-xl hover:scale-95 transition">Kontakt</a></div></nav>
+    <a href="Kontakt" class=" font-semibold text-nowrap whitespacing-no-wrap text-xl hover:scale-95 transition">Termin vereinbaren</a></div></nav>
 
     <main class="flex flex-col items-center p-4 pb-16 md:p-8 md:pb-16 grow"><div class="flex flex-col items-start md:flex-row-reverse"><img src="img/me_home.jpg" alt="Foto von mir in der Küche" class="object-contain max-h-[24rem] rounded">
-    <div class="bg-[url('../img/cardBorder_home.svg')] p-6 pt-4 max-w-sm bg-center bg-no-repeat ml-16 md:-mr-16 -mt-16 md:mt-32 bg-full z-10"><article><h1 class="mb-2 text-5xl text-left">
+    <div class="bg-[url(&#x27;../img/cardBorder_home.svg&#x27;)] p-6 pt-4 max-w-sm bg-center bg-no-repeat ml-16 md:-mr-16 -mt-16 md:mt-32 bg-full z-10"><article><h1 class="mb-2 text-5xl text-left">
                 Vegan ernährt.
             </h1>
             <h2 class="mb-2 text-5xl text-left">
@@ -29,14 +32,13 @@
             <p class="font-medium text-right">
                 Hallo, ich bin Tamara! Ich bin vegane
                 Ernährungsberaterin und ernähre mich
-                schon seit mehr als acht Jahren rein
+                schon seit knapp elf Jahren rein
                 pflanzlich. Ich freue mich schon, Dich auf
                 Deiner kulinarischen Reise zu unterstützen.
             </p></article></div></div></main>
 
     <div class="bg-[linear-gradient(to_top,rgba(255,255,255,0.0),rgba(255,255,255,0.7)),url(&#x27;../img/HeaderBackground.svg&#x27;)] bg-cover bg-no-repeat bg-center flex flex-col justify-start items-center p-4 gap-4"><p>&#xA9; 2024 - 2025 Tamara Lude.</p>
-  <div class="flex flex-col items-center gap-2 mx-8 sm:gap-8 sm:justify-center sm:flex-row"><a class="no-underline hover:underline cursor-pointer " href="Impressum">Impressum</a>
-    <a href="https://www.instagram.com/herbivorepower" title="instagram" target="_blank" class="transition hover:fill-hpaccent-500"><svg width="24" height="24" viewBox="0,0,448,512" focusable="false" aria-hidden="true"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a></div>
+  <div class="flex flex-col items-center gap-2 mx-8 sm:gap-8 sm:justify-center sm:flex-row"><a class="no-underline hover:underline cursor-pointer" href="Impressum">Impressum</a></div>
   <p class="max-w-screen-md text-center">
     Mein Angebot richtet sich an gesunde Menschen. Es wird kein Versprechen abgegeben, dass Heilung oder sonstiger
     Erfolg stattfinden wird. Bei Beschwerden oder Krankheiten sind meine Kund*innen gebeten, sich an entsprechende

@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /Impressum
+Disallow: /Error
+Disallow: /Success
+Sitemap: https://herbivorepower.de/sitemap.xml

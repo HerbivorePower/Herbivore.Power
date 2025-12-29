@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="de"><head><meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leistungen</title>
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="description" content="Vegane Ern&#xE4;hrungsberatung - Deutschlandweite, individuelle Ern&#xE4;hrungsberatung per Videoanruf. Gruppenseminare und Vortr&#xE4;ge vor Ort in S&#xFC;ddeutschland. Ich freu mich &#xFC;ber deine Anfrage!" />
+    <meta property="og:title" content="Vegane Ern&#xE4;hrungsberatung - Leistungen" />
+    <title>Vegane Ern&#xE4;hrungsberatung - Leistungen</title>
     <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
     <link rel="icon" type="image/png" href="img/favicon.png">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/app.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script></head>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script data-goatcounter="https://herbivore-power.goatcounter.com/count" data-goatcounter-settings='{"allow_local": true}' async src="//gc.zgo.at/count.js"></script></head>
 
 <body class="flex flex-col h-screen text-hptext-500"><nav x-data="{ isDrawerMenu: window.innerWidth &lt; 640, isMenuShown: false }" x-on:keydown.escape="isMenuShown = false" x-on:click.away="isMenuShown = false" x-on:resize.window.debounce.100="isDrawerMenu = window.innerWidth &lt; 640" class="bg-[linear-gradient(to_bottom,rgba(255,255,255,0.0),rgba(255,255,255,0.7)),url(&#x27;../img/HeaderBackground.svg&#x27;)] bg-cover bg-no-repeat bg-center flex flex-col justify-start items-center"><div class="flex flex-row items-start justify-between w-full px-4 py-4 sm:justify-center"><a href="/"><img src="img/logo_long.svg" alt="logo" class="pr-4 max-h-16 sm:hidden" style="transform-box: fill-box;">
       <img src="img/logo_round.svg" alt="logo" class="hidden h-16 sm:block md:h-48 sm:h-28"></a>
@@ -17,44 +20,40 @@
   <div x-bind:class="{ &#x27;hidden&#x27;: isDrawerMenu ? !isMenuShown : false }" class="flex flex-col gap-4 px-8 pb-2 mx-8 border-b-2 sm:justify-center sm:gap-8 sm:flex-row border-hptext-300"><a href="index" class=" font-semibold text-nowrap whitespacing-no-wrap text-xl hover:scale-95 transition">Home</a>
     <a href="Leistungen" class="text-hpaccent-500 font-semibold text-nowrap whitespacing-no-wrap text-xl hover:scale-95 transition">Leistungen</a>
     <a href="&#xDC;berMich" class=" font-semibold text-nowrap whitespacing-no-wrap text-xl hover:scale-95 transition">&#xDC;ber mich</a>
-    <a href="Kontakt" class=" font-semibold text-nowrap whitespacing-no-wrap text-xl hover:scale-95 transition">Kontakt</a></div></nav>
+    <a href="Kontakt" class=" font-semibold text-nowrap whitespacing-no-wrap text-xl hover:scale-95 transition">Termin vereinbaren</a></div></nav>
 
-    <main class="flex flex-col items-center p-4 pb-16 md:p-8 md:pb-16 grow"><div class="flex flex-col items-center lg:items-start gap-8 lg:flex-row"><img src="img/me_services.jpg" alt="Foto von mir beim Arbeiten" class="object-contain max-h-[24rem] rounded">
-    <article class="flex flex-col max-w-xl gap-2 font-medium md:gap-4 "><a href="/Kontakt?leistung=1"><section class="bg-[url('../img/cardBorder_services_1.svg')] px-6 pt-8 pb-9 bg-center bg-no-repeat bg-full z-10"><h3 class="mb-1 text-lg font-bold text-center">
-                    Individuelle Ernährungsberatung
+    <main class="flex flex-col items-center p-4 pb-16 md:p-8 md:pb-16 grow"><div class="flex flex-col items-center gap-8"><article class="flex flex-col max-w-2xl gap-2 font-medium md:gap-4 "><section class="bg-[url('../img/cardBorder_services_3.svg')] px-6 md:px-8 pt-10 pb-10 bg-center bg-no-repeat bg-full z-10"><h3 class="mb-1 text-lg font-bold text-center">
+                    Aktuelles
                 </h3>
                 <p class="md:text-justify">
-                    Unabhängig davon, wo Du Dich auf Deiner Ernährungsreise zurzeit befindest: Deine Umstellung auf eine
-                    pflanzenbasierte Ernährung? Unsicherheiten während Deiner Stillzeit? Vegan und Sportler*in? Gerne
-                    helfe
-                    ich Dir, Deine persönlichen Ziele zu erreichen!
-                </p>
-                <h4 class="mt-4 mb-1 font-bold">Bei meiner Beratung steht folgendes im Vordergrund</h4>
-                <ul class="pl-6 list-disc"><li>Deine Situation, Wünsche und Ziele</li>
-                    <li>Wissenschaftlich fundiertes Ernährungswissen über eine vollwertige, vegane Ernährung</li>
-                    <li>Praktische Hilfe und Unterstützung während der Umsetzung einer möglichen Ernährungsumstellung
-                    </li></ul></section></a>
-
-        <a href="/Kontakt?leistung=2"><section class="bg-[url('../img/cardBorder_services_2.svg')] px-6 pt-7 pb-9 bg-center bg-no-repeat bg-full z-10"><h3 class="mb-1 text-lg font-bold text-center">
-                    Workshops und Vorträge
+                    Aktuell befinde ich mich in der Gründungsphase. Genauere Informationen zu Leistungen und Preisen
+                    folgen in Kürze.
+                    Workshops und Vorträge finden schon vereinzelt statt.
+                </p></section><section class="bg-[url(&#x27;../img/cardBorder_services_2.svg&#x27;)] px-6 md:px-8 pt-16 md:pt-12 pb-20 md:pb-12 bg-center bg-no-repeat bg-full z-10"><a href="/Kontakt?leistung=2"><h3 class="px-16 mb-1 text-lg font-bold text-center">
+                    Online Workshops und Vorträge
                 </h3>
-                <p class="md:text-justify">
-                    Aktuell biete ich die individuelle Beratung nur online per Videomeeting an.
-                </p>
+                <p class="px-4 text-center md:px-8">
+                    Vorträge und Workshops zu ernährungsspezifischen Themen.
+                </p></a>
 
-                <h4 class="mt-4 mb-1 font-bold">Workshops und Vorträge</h4>
-                <ul class="pl-6 list-disc"><li>
-                        Kostenloses Seminar mit dem Thema Nachhaltigkeit und Ernährungsumstellung (Stuttgart, vhs): <a class="no-underline hover:underline cursor-pointer font-bold" href="https://vhs-stuttgart.de/programm/kurssuche/kurs/252-17040">Zum Kurs</a></li></ul></section></a>
+            <h4 class="mt-4 mb-1 font-bold">Aktuelle Veranstaltungen</h4><p class="mb-2 text-sm italic md:text-justify">F&#xFC;r eine umfassende Auseinandersetzung mit dem Thema empfehle ich beide Kurse der Reihe Nachhaltige Ern&#xE4;hrung zu besuchen.</p><ul class="pl-6 list-disc"><li class="mb-4"><span class="font-bold">Nachhaltige Ern&#xE4;hrung &#x2013; Grundlagen und erste Schritte</span><p class="text-sm italic">mit pflanzlichem, nachhaltigem und gesundem Schwerpunkt</p><div class="flex flex-col md:flex-row md:gap-x-12 md:flex-wrap"><div class="whitespace-nowrap min-w-60"><span class="font-semibold">Datum: </span><span>07.03.2026 </span><span>09:00 -
+                                                11:00</span></div>
 
-        <section class="mt-4"><p class="md:text-justify">
-                Nichts für Dich dabei? Dann schildere gerne über das
-                <a class="no-underline hover:underline cursor-pointer font-bold" href="/Kontakt?leistung=3">Kontaktformular</a>
-                Deine Wünsche für eine Zusammenarbeit.
-            </p></section></article></div></main>
+                                <div class="whitespace-nowrap"><span class="font-semibold">Ort: </span><span>online, per Zoom</span></div>
+
+                                <div class="whitespace-nowrap"><span class="font-semibold">Anmeldung: </span><span>Link folgt in Kürze</span></div></div></li><li class="mb-4"><span class="font-bold">Nachhaltige Ern&#xE4;hrung &#x2013; Ressourcen erkennen und Probleme angehen</span><p class="text-sm italic">mit pflanzlichem, nachhaltigem und gesundem Schwerpunkt</p><div class="flex flex-col md:flex-row md:gap-x-12 md:flex-wrap"><div class="whitespace-nowrap min-w-60"><span class="font-semibold">Datum: </span><span>28.03.2026 </span><span>09:00 -
+                                                11:00</span></div>
+
+                                <div class="whitespace-nowrap"><span class="font-semibold">Ort: </span><span>folgt in Kürze</span></div>
+
+                                <div class="whitespace-nowrap"><span class="font-semibold">Anmeldung: </span><span>Link folgt in Kürze</span></div></div></li><li class="mb-4"><span class="font-bold">Test 123</span><div class="flex flex-col md:flex-row md:gap-x-12 md:flex-wrap"><div class="whitespace-nowrap min-w-60"><span class="font-semibold">Datum: </span><span>folgt in Kürze</span></div>
+
+                                <div class="whitespace-nowrap"><span class="font-semibold">Ort: </span><span>online, per Zoom</span></div>
+
+                                <div class="whitespace-nowrap"><span class="font-semibold">Anmeldung: </span><a class="underline hover:font-bold whitespace-nowrap" href="https://example.com/veganer-ernahrungsworkshop">Zur Buchung</a></div></div></li></ul></section></article></div></main>
 
     <div class="bg-[linear-gradient(to_top,rgba(255,255,255,0.0),rgba(255,255,255,0.7)),url(&#x27;../img/HeaderBackground.svg&#x27;)] bg-cover bg-no-repeat bg-center flex flex-col justify-start items-center p-4 gap-4"><p>&#xA9; 2024 - 2025 Tamara Lude.</p>
-  <div class="flex flex-col items-center gap-2 mx-8 sm:gap-8 sm:justify-center sm:flex-row"><a class="no-underline hover:underline cursor-pointer " href="Impressum">Impressum</a>
-    <a href="https://www.instagram.com/herbivorepower" title="instagram" target="_blank" class="transition hover:fill-hpaccent-500"><svg width="24" height="24" viewBox="0,0,448,512" focusable="false" aria-hidden="true"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a></div>
+  <div class="flex flex-col items-center gap-2 mx-8 sm:gap-8 sm:justify-center sm:flex-row"><a class="no-underline hover:underline cursor-pointer" href="Impressum">Impressum</a></div>
   <p class="max-w-screen-md text-center">
     Mein Angebot richtet sich an gesunde Menschen. Es wird kein Versprechen abgegeben, dass Heilung oder sonstiger
     Erfolg stattfinden wird. Bei Beschwerden oder Krankheiten sind meine Kund*innen gebeten, sich an entsprechende
